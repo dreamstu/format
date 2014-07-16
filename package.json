@@ -1,0 +1,28 @@
+{
+  "name": "format",
+  "version": "1.0.0",
+  "description": "format 扩展包",
+  "keywords": ["format"],
+  "homepage": "http://www.dreamstu.com/",
+  "author": "Seven",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Seven/format.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "dependencies": {
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    },
+    "engines": {
+      "seajs": "2.2.1"
+    },
+    "tests": "tests/*.js"
+  }
+}
